@@ -1,0 +1,19 @@
+######
+
+POST http://localhost:9000/register/
+Content-Type: application/json
+
+{   
+    "username":"anil",
+    "password": "anil@2021"
+}
+
+#####
+
+POST http://localhost:9000/login/
+Content-Type: application/json
+
+{
+    "username":"rahul",
+    "password": "rahul@2021"
+}
